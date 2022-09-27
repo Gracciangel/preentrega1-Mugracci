@@ -1,12 +1,17 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import logo from './logo.svg';
+import ItemListContainer from './components/ItemListContiner';
+
+
+
 function App() {
   return (
-      <header className='App-header'>
-          <NavBar/>
-      </header>
+        <>
+         <NavBar/>
+        <ItemListContainer greeting={'Bienvenido'} />
+        </>
   );
 }
 
-export default App;
+
+export default App ;

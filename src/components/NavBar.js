@@ -1,15 +1,24 @@
-import Widget from './Widget.js'
+import CartWidget from './CartWidget.js'
 
 function NavBar(){
     return(
-        <>
-            <ul className="NavBar">
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <Widget/>
-            </ul>
-        </>
+        <header className='App-header'>
+            <Lista />
+            <CartWidget/>
+
+        </header>
+    )
+}
+
+
+function Lista(){
+    return(
+        <ul className="NavBar">
+        <li><a href="#">Pedales</a></li>
+        <li><a href="#">Guitarras</a></li>
+        <li><a href="#">Audio Profesional</a></li>
+       
+    </ul>
     )
 }
 

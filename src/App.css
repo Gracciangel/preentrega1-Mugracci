@@ -20,6 +20,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-bottom: 2rem;
+  justify-content:space-around;
+  padding : 2rem;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+}
+.greeting{
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: inline;
+  margin: 5% 35%;
+}
+.btn{
+  background-color: rgba(3, 3, 119, 0.5);
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .5rem ;
+  margin-top: .5rem;
+}
+.btn:hover{
+  cursor: pointer;
 }
 
 .App-link {
@@ -35,6 +55,7 @@
 }
 .NavBar{
   display: flex;
+  flex-direction: row;
   gap: 10rem;
   margin: auto;
   align-items: center;
